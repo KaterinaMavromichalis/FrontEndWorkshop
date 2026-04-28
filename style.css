@@ -16,12 +16,21 @@
       width: 1000px;
       background-color: #fff;
       margin: auto;
+      padding: 2rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 
     }
  h1 {
-    color: navy;
+    color: #bb0000;
     font-family: 'SeafordBold';
     text-align: center;
+  }
+
+  #tagline{
+    text-align: center;
+    color: #555;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
   }
 
   h2 {
@@ -45,7 +54,7 @@
 
  body {
         font-family: SeafordRg;
-        background-color:white;
+        background-color:#f4f1ec;
       }
 
 
@@ -78,7 +87,7 @@ ol li {
 #mytable {
     font-family: SeafordRg;
     border-collapse: collapse;
-    width: 30%;
+    width: 100%;
   }
   
   #mytable td, #mytable th {
@@ -94,14 +103,15 @@ ol li {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: grey;
+    background-color:#bb0000;
     color: white;
   }
 
-  label { display: inline-block; width: 100px; text-align: right; }
  
  img.myImage{
-  height: 140px;
-  width: 150px;
-  border-radius: 50%;
+  height: 250px;
+  width: 210px;
+  border-radius: 8px;
+  display:block;
+  margin: 1rem auto;
  }
